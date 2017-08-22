@@ -1,7 +1,7 @@
 module.exports = {
   'Demo test GM' : function (browser) {
     browser
-      .url('https://ibmmethod-beta.mybluemix.net/devops/method')
+      .url('https://google.com')
       .waitForElementVisible('.searchbox.hidden-xs.hidden-sm', 60000, true,
         function(){}, 'Waiting for Search Input to become visible')
       .setValue('.searchbox.hidden-xs.hidden-sm', 'Test')
